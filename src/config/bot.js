@@ -188,9 +188,9 @@ export const botConfig = {
     // Command cooldowns (milliseconds).
     cooldowns: {
       daily: 24 * 60 * 60 * 1000,
-      work: 60 * 60 * 1000,
-      crime: 2 * 60 * 60 * 1000,
-      rob: 4 * 60 * 60 * 1000,
+      work: 5 * 60 * 1000,
+      crime: 5 * 60 * 60 * 1000,
+      rob: 5 * 60 * 60 * 1000,
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
